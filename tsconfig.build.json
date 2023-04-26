@@ -16,11 +16,8 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "removeComments": true,
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"],
-  /* Specify that the ts-node uses ESM loader */
-  "ts-node": {
-    "esm": true
-  }
 }
